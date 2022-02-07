@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <!-- boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>maps away</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">maps away</a>
+
+            <!-- theme change button -->
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">veja o mundo de uma nova forma</span>
+                    <h1 class="home__title">maps away</h1>
+                    <h3 class="home__subtitle">viajando o mundo em um click</h3>
+
+                    <div class="home__buttons">
+                        <a href="home/index.html" class="button button--ghost">
+                            Início
+                        </a>
+                        <a href="#news" class="button">Conhecer</a>
+                    </div>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="home__img" />
+            </div>
+        </section>
+
+        <!-- news -->
+        <section class="news section" id="news">
+            <span class="section__subtitle">Introdução</span>
+            <h2 class="section__title">Sobre nosso Projeto</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.png" alt="" class="about__img" />
+
+                <div class="about__project">
+                    <p class="about__description">
+                        Buscamos oferecer uma experiencia diferente - e divertida - em
+                        relação ao mundo, uma nova maneira de enxergar e conhecer culturas
+                        e lugares.
+                    </p>
+
+                    <a href="#service" class="button">Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- service -->
+        <section class="service section" id="service">
+            <span class="section__subtitle">Teste gratuitamente</span>
+            <h2 class="section__title">Nossos Serviços</h2>
+
+            <div class="service__filters">
+                <span class="service__item active-service" data-filter="all">Todos</span>
+                <span class="service__item" data-filter=".web">Interativos</span>
+                <span class="service__item" data-filter=".design">Novos Lugares</span>
+            </div>
+
+            <div class="service__container container grid">
+                <div class="service__card mix web">
+                    <img src="assets/img/service1.png" alt="" class="service__img" />
+
+                    <h3 class="service__title">Localizando</h3>
+
+                    <a href="#" class="service__button">
+                        Experimentar <i class="bx bx-right-arrow-alt service__icon"></i>
+                    </a>
+                </div>
+
+                <div class="service__card mix design">
+                    <img src="assets/img/service3.png" alt="" class="service__img" />
+
+                    <h3 class="service__title">Culturando-se</h3>
+
+                    <a href="#" class="service__button">
+                        Conheça <i class="bx bx-right-arrow-alt service__icon"></i>
+                    </a>
+                </div>
+
+                <div class="service__card mix web">
+                    <img src="assets/img/service2.png" alt="" class="service__img" />
+
+                    <h3 class="service__title">DrawGuesser</h3>
+
+                    <a href="home/subpages/drawguesser/index.html" class="service__button">
+                        Experimentar <i class="bx bx-right-arrow-alt service__icon"></i>
+                    </a>
+                </div>
+
+                <div class="service__card mix web">
+                    <img src="assets/img/service4.png" alt="" class="service__img" />
+
+                    <h3 class="service__title">Monumentos 3D</h3>
+
+                    <a href="home/subpages/location/index.html" class="service__button">
+                        Experimentar <i class="bx bx-right-arrow-alt service__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- procon -->
+        <section class="procon section" id="procon">
+            <span class="section__subtitle">Vantagens</span>
+            <h2 class="section__title">Usuário x Visitante</h2>
+
+            <div class="procon__container container grid">
+                <div class="procon__content">
+                    <h3 class="procon__title">Visitante</h3>
+
+                    <div class="procon__box">
+                        <div class="procon__group">
+                            <div class="procon__data">
+                                <i class="bx bx-block"></i>
+
+                                <div>
+                                    <h3 class="procon__name">DrawGuesser</h3>
+                                    <span class="procon__level">3 testes</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bx-block"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Monumentos 3D</h3>
+                                    <span class="procon__level">Acesso bloqueado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Localizando</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Culturando-se</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="procon__content">
+                    <h3 class="procon__title">Usuário</h3>
+
+                    <div class="procon__box">
+                        <div class="procon__group">
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">DrawGuesser</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Monumentos 3D</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Localizando</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <i class="bx bxs-badge-check"></i>
+
+                                <div>
+                                    <h3 class="procon__name">Culturando-se</h3>
+                                    <span class="procon__level">Acesso ilimitado</span>
+                                </div>
+                            </div>
+
+                            <div class="procon__data">
+                                <div>
+                                    <span class="procon__level">e muito mais..</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- team -->
+        <section class="team section">
+            <span class="section__subtitle">Membros</span>
+            <h2 class="section__title">Equipe</h2>
+
+            <div class="team__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="team__card swiper-slide">
+                        <img src="assets/img/team1.jpg" alt="" class="team__img" />
+
+                        <h3 class="team__name">Augusto Balsanelli</h3>
+                        <p class="team__description">
+                            Responsável principal do CSS & JS e auxiliar HTML & Creativity
+                            do Projeto.
+                        </p>
+                    </div>
+
+                    <div class="team__card swiper-slide">
+                        <img src="assets/img/team2.jpg" alt="" class="team__img" />
+
+                        <h3 class="team__name">Alisson Raffaelly</h3>
+                        <p class="team__description">
+                            Responsável principal da HTML e auxiliar Creativity do Projeto.
+                        </p>
+                    </div>
+
+                    <div class="team__card swiper-slide">
+                        <img src="assets/img/team3.jpg" alt="" class="team__img" />
+
+                        <h3 class="team__name">Ana Laura</h3>
+                        <p class="team__description">
+                            Responsável principal da Creativity e auxiliar CSS do Projeto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">maps away</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#news" class="footer__link">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#service" class="footer__link">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="#team" class="footer__link">Membros</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; maps away. All rigths reserved
+            </span>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup filter -->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

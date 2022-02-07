@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maps away</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/account.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+
+                    <!-- Login Panel -->
+
+                    <form action="account.html" autocomplete="off" class="sign-in-form">
+                        <div class="logo">
+                            <img src="images/favicon.png" alt="">
+                            <h4>maps away</h4>
+                        </div>
+
+                        <div class="heading">
+                            <h2>bem vindo de volta</h2>
+                            <h6>novo por aqui?</h6>
+                            <a href="#" class="toggle">cadastre-se</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" name="username" minlength="4" class="input-field" autocomplete="off"
+                                    required oninvalid="this.setCustomValidity('Por favor, preencha este campo')"
+                                    oninput="this.setCustomValidity('')">
+                                <label for="username">usuário</label>
+                                <span></span>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" name="password" minlength="4" class="input-field"
+                                    autocomplete="off" required
+                                    oninvalid="this.setCustomValidity('Por favor, preencha este campo')"
+                                    oninput="this.setCustomValidity('')">
+                                <label for="password">senha</label>
+                                <span></span>
+                            </div>
+
+                            <input type="submit" value="Entrar" class="sign-btn">
+
+                            <p class="text">
+                                esqueceu sua senha ou usuário?
+                                <a href="#">recupere</a> suas informações de login
+                            </p>
+                        </div>
+                    </form>
+
+                    <!-- Register Panel -->
+
+                    <form action="account.html" autocomplete="off" class="sign-up-form">
+                        <div class="logo">
+                            <img src="images/favicon.png" alt="">
+                            <h4>maps away</h4>
+                        </div>
+
+                        <div class="heading">
+                            <h2>cadastrar-se</h2>
+                            <h6>já é cadastrado?</h6>
+                            <a href="#" class="toggle">entrar</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" minlength="4" class="input-field" autocomplete="off" required
+                                    oninvalid="this.setCustomValidity('Por favor, preencha este campo')"
+                                    oninput="this.setCustomValidity('')">
+                                <label>usuário</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="email" minlength="4" class="input-field" autocomplete="off" required
+                                    oninvalid="this.setCustomValidity('Por favor, preencha este campo')"
+                                    oninput="this.setCustomValidity('')">
+                                <label>e-mail</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" minlength="8" class="input-field" autocomplete="off" required
+                                    oninvalid="this.setCustomValidity('Por favor, preencha este campo')"
+                                    oninput="this.setCustomValidity('')">
+                                <label>senha</label>
+                            </div>
+                            <input type="submit" value="Cadastrar-se" class="sign-btn">
+
+                            <p class="text">
+                                cadastrando-se, você concorda com os <a href="#">Termos de Serviço</a> e <a
+                                    href="#">Política de Privacidade</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="images/about.png" class="image img-1 show" alt="">
+                        <img src="images/favicon.png" class="image img-2" alt="">
+                        <img src="images/work1.png" class="image img-3" alt="">
+                    </div>
+
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2></h2>
+                                <h2></h2>
+                                <h2></h2>
+                            </div>
+                        </div>
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
